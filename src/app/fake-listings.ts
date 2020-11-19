@@ -1,6 +1,6 @@
 import { Listing } from './types';
 
-export const listings: Listing[] = [{
+export const fakeListings: Listing[] = [{
     id: '123',
     name: 'Old Boat',
     description: 'A very old boat. Bargain price',

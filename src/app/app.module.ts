@@ -9,6 +9,7 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import { MyListingsPageComponent } from './my-listings-page/my-listings-page.component';
 import { NewListingPageComponent } from './new-listing-page/new-listing-page.component';
 import { EditListingPageComponent } from './edit-listing-page/edit-listing-page.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { EditListingPageComponent } from './edit-listing-page/edit-listing-page.
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
